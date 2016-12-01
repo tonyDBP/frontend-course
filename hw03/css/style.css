@@ -1,0 +1,368 @@
+@font-face {
+    font-family: 'Droid Sans';
+    src: url("../fonts/droid-sans/DroidSans.ttf");
+}
+
+@font-face {
+    font-family: 'Droid Serif';
+    src: url("../fonts/droid-serif/DroidSerif-Regular.ttf");
+}
+
+* {text-decoration: none}
+
+section {text-align: center;}
+
+/**::-webkit-scrollbar {width: 0}**/
+
+.container {
+    width: 1280px;
+    margin: 0 auto; 
+}
+
+.welcome-section {
+    height: 120vh;
+    background: url("../img/header-background-2.jpg") no-repeat 50% 0;
+    background-size: cover;
+}
+
+.welcome-section header {
+    padding-top: 45px;
+    min-height: 777px;
+    overflow: hidden;
+}
+
+.welcome-section header .logo {
+    float: left;
+}
+
+.main-nav {
+    float: right;
+}
+
+.main-nav li {float: left}
+
+.main-nav li a {
+    display: block;
+    padding: 20px 20px 0;
+    color: #fff;
+    font-family: "Droid Sans";
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.main-nav li a:hover {color: #e1e8f0}
+
+.welcome-section .welcome-text {
+    position: absolute;
+    top: 53.5%;
+    left: 0;
+    width: 100%;
+}
+
+.welcome-section .welcome-text p {
+    width: 820px;
+    margin: 0 auto;
+    color: #fff;
+    font-family: "Droid Sans";
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.welcome-section .welcome-text a {
+    position: absolute;
+    margin-left: -1%;
+    color: #fff;
+    font-family: "Droid Serif";
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 31px;
+}
+
+.fa-angle-down {
+    margin-top: 192px;
+    height: 60px;
+    width: 60px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 60px;
+    background: #2ecc71;
+    border-radius: 100px;
+}
+
+.fa-angle-down:hover {
+    background: #e62739;
+    color: #e1e8f0;
+}
+
+.explore {
+    position: absolute;
+    bottom: -25%;
+    right: -20px;
+}
+
+.about-section {
+    min-height: 1140px;
+    background: #34495e;
+}
+
+.about-section .about {
+    padding-top: 125px;
+    margin-left: 2%;
+}
+
+.about-section .about h2 {
+    color: #fff;
+    font-family: "Droid Sans";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+.about-section .about .global-description {
+    padding: 70px 0 0 20%;
+    width: 715px;
+    color: white;
+    font-family: "Droid Serif";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+}
+
+.about-section .about .support-features {
+    padding-top: 135px;
+}
+
+.about-section .about .support-features li {
+    display: inline-block;
+    width: 240px;
+    padding: 0 57px;
+}
+
+.about-section .about .support-features li p {
+    color: #fff;
+    font-family: "Droid Sans";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 75px;
+    
+}
+
+.about-section .about .support-features li .feature-description {
+    color: #fff;
+    font-family: "Droid Serif";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.portfolio-section {
+    min-height: 1046px;
+    background: #fff;
+}
+
+.portfolio-section .portfolio {
+    padding-top: 125px;
+}
+
+.portfolio-section .portfolio .filter-nav h2 {
+    color: #2c3e50;
+    font-family: "Droid Sans";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+.portfolio-section .portfolio .filter-nav .choice-panel {
+    margin-top: 76px;
+    margin-left: 17%;
+}
+
+.portfolio-section .portfolio .filter-nav .choice-panel li {
+    float: left;
+    padding-right: 60px;
+}
+
+.portfolio-section .portfolio .filter-nav .choice-panel li.active a {
+    border: 1px solid #2ecc71;
+    background: #2ecc71;
+    color: #fff;
+}
+
+.portfolio-section .portfolio .filter-nav .choice-panel li a:hover {
+    border: 1px solid #2ecc71;
+}
+
+.portfolio-section .portfolio .filter-nav .choice-panel li a {
+    color: #2c3e50;
+    font-family: "Droid Sans";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 31px;
+    padding: 7px 15px; 
+    border: 1px solid transparent;
+    border-radius: 20px; 
+}
+
+.portfolio-section .portfolio .filter-nav .work-items {
+    padding-top: 127px;
+}
+
+.portfolio-section .portfolio .filter-nav .work-items li {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #e9e9e9;
+    padding: 10px;
+    margin: 15px 15px;
+}
+
+.portfolio-section .portfolio .filter-nav .work-items li img {
+    display: block;
+    width: 348px;
+    height: 261px;
+}
+
+.portfolio-section .portfolio .filter-nav .work-items .hover-block {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    bottom: 0;
+    left: 10px;
+    background-color: rgba(52, 73, 94, 0.95);
+    width: 348px;
+    height: 261px;
+}
+
+.portfolio-section .portfolio .filter-nav .work-items .hover-block h4 {
+    margin-bottom: 35px;
+    color: #fff;
+    font-family: "Droid Sans";
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+.portfolio-section .portfolio .filter-nav .work-items .hover-block a {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 8px 17px;
+    font-family: "Droid Serif";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.portfolio-section .portfolio .filter-nav .work-items li:hover .hover-block {
+    display: block;
+}
+
+.portfolio-section .portfolio .filter-nav .work-items .hover-block a:hover {
+    color: rgba(52, 73, 94, 0.95);
+    background: #fff;
+}
+
+.portfolio-section .portfolio .filter-nav .work-items .hover-block .hover-wrap {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-section .portfolio .filter-nav .work-items .hover-block .hover-wrap .table-cell-wrap {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 15%;
+}
+
+.team-section {
+    min-height: 907px;
+    background: #2980b9;
+}
+
+.team-section .team-members {
+    padding-top: 123px;
+}
+
+.team-section .team-members h2 {
+    color: #fff;
+    font-family: "Droid Sans";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+.team-section .team-members .team {
+    margin-top: 76px;
+}
+
+.team-section .team-members .team li {
+    display: inline-block;
+    width: 299px;
+    padding: 0 51px;
+}
+
+.team-section .team-members .team li img {
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+.team-section .team-members .team li p {
+    margin-top: 40px;
+    color: #fff;
+    font-family: "Droid Sans";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+.team-section .team-members .team li .team-description {
+    margin-top: 38px;
+    color: #fff;
+    font-family: "Droid Serif";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.team-section .team-members .team li .team-social-net {margin-left: 12%}
+
+.team-section .team-members .team li .fa {
+    margin: 50px 30px 0 0;
+    padding: 10 11px;
+    font-size: 35px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.team-section .team-members .team li .fa:hover {
+    color: #e62739;
+    border-color: #e62739;
+}
+
+.contact-section {
+    min-height: 858px;
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    min-height: 282px;
+    background: #2c3e50;
+}
