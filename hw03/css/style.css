@@ -35,9 +35,7 @@ section {text-align: center;}
     float: left;
 }
 
-.main-nav {
-    float: right;
-}
+.main-nav {float: right}
 
 .main-nav li {float: left}
 
@@ -50,7 +48,7 @@ section {text-align: center;}
     font-weight: 400;
 }
 
-.main-nav li a:hover {color: #e1e8f0}
+.main-nav li a:hover {color: #95adf1}
 
 .welcome-section .welcome-text {
     position: absolute;
@@ -91,7 +89,7 @@ section {text-align: center;}
 }
 
 .fa-angle-down:hover {
-    background: #e62739;
+    background: #95adf1;
     color: #e1e8f0;
 }
 
@@ -338,8 +336,8 @@ section {text-align: center;}
 }
 
 .team-section .team-members .team li .fa:hover {
-    color: #e62739;
-    border-color: #e62739;
+    box-shadow: 0 0 50px 0 rgba(255,255,255,0.55);
+    transition: box-shadow 0.5s ease;
 }
 
 .contact-section {
@@ -347,22 +345,179 @@ section {text-align: center;}
     background: #fff;
 }
 
+.contact-section h2 {
+    margin-top: 122px;
+    color: #2c3e50;
+    font-family: "Droid Sans";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 31px;
+}
 
+.contact-section .contact-form {
+    width: 705px;
+    margin: 0 auto;
+}
 
+.contact-section .contact-form p {
+    margin-top: 67px;
+    color: #2c3e50;
+    font-family: "Droid Sans";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 33px;
+}
 
+.contact-section .contact-form .input-form {
+    margin-top: 77px;
+}
 
+.contact-section .contact-form .input-form input {
+    float: left;
+    width: 370px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid #2ecc71;
+}
 
+.contact-section .contact-form .input-form [placeholder]:first-of-type {
+    margin-top: 45px;
+}
 
+.contact-section .contact-form .input-form textarea {
+    margin-top: 58px;
+    float: left;
+    width: 370px;
+    height: 140px;
+    resize: none;
+    border: none;
+    border-bottom: 2px solid #2ecc71;
+}
 
+.contact-section .contact-form .input-form [placeholder] {
+    font-family: "Droid Serif";
+    font-size: 26px;
+    font-weight: 400;
+}
 
+.contact-section .contact-form .input-form [placeholder]:focus {
+    border-bottom: none;
+}
 
+.contact-section .contact-form .input-form [placeholder]::-moz-placeholder, [placeholder]::-webkit-input-placeholder{color: #2c3e50}
+.contact-section .contact-form .input-form [placeholder]::-webkit-input-placeholder {color: #2c3e50}
 
+.contact-section .contact-form .contact-info-cf {
+    float: right;
+    width: 205px;
+    margin-top: -337px;
+}
 
+.contact-section .contact-form .contact-info-cf li {
+    padding-top: 25px;
+    text-align: left;
+}
 
+.contact-section .contact-form .contact-info-cf li h5 {
+    padding-bottom: 10px;
+    color: #2c3e50;
+    font-family: "Droid Sans";
+    font-size: 16px;
+    font-weight: 700;
+}
 
+.contact-section .contact-form .contact-info-cf li address, a {
+    color: #2c3e50;
+    font-family: "Droid Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px
+}
 
+.contact-section .contact-form .contact-info-cf li a:hover {text-decoration: underline}
+
+.contact-section .contact-form .submit-btn {
+    margin-top: 60px;
+    padding: 8px 30px;
+    float: left;
+    clear: both;
+    background: #2ecc71;
+    border: 1px solid #2ecc71;
+    border-radius: 22px;
+    color: #fff;
+    font-family: "Droid Serif";
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.contact-section .contact-form .submit-btn:hover {
+    background: #95adf1;
+    border-color: #95adf1;
+    color: #e1e8f0;
+}
 
 footer {
     min-height: 282px;
     background: #2c3e50;
+}
+
+footer .logo {
+    margin-top: 75px;
+    float: left;
+}
+
+footer .contact-info-ftr {
+    position: absolute;
+    width: 1280px;
+    color: #fff;
+    font-family: "Droid Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+footer .contact-info-ftr li {
+    display: inline-block;
+    margin-top: 165px;
+}
+
+footer .contact-info-ftr a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+footer .contact-info-ftr .address2 {
+    float: left;
+    width: 159px;
+}
+
+footer .contact-info-ftr .email-phone {
+    float: left;
+    margin-left: 33%;
+    width: 171px;
+}
+
+footer .contact-info-ftr .social-net {
+    float: right;
+    margin-top: 110px;
+}
+
+footer .contact-info-ftr .social-net .fa {
+    margin: 50px 30px 0 0;
+    padding: 10 11px;
+    font-size: 35px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 100px;
+}
+
+footer .contact-info-ftr .social-net .fa-facebook {
+    padding: 10px 17px;
+}
+
+footer .contact-info-ftr .social-net .fa:hover {
+    box-shadow: 0 0 50px 0 rgba(255,255,255,0.55);
+    transition: box-shadow 0.5s ease;
 }
