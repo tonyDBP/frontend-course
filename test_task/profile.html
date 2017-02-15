@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test Task</title>
+    <link rel="stylesheet" type="text/css" href="css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="css/profile.css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet">
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+</head>
+<body class="all">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <a class="log-out-btn btn btn-default btn-xs" href="#" >Log Out</a>
+
+                <label class="btn btn-default btn-file hidden-xs hidden-sm hidden-md">
+                    <i class="icon ion-camera"></i>Upload Cover Image <input type="file" hidden />
+                </label>
+
+                <img width="171" height="171" src="img/profile_image.jpg" class="img-responsive" alt="Profile Image">
+
+                <ul class="prof-info-head">
+                    <li><h1>Jessica Parker</h1></li>
+                    <li><address><i class="icon ion-ios-location-outline"></i>Newport Beach, CA</address></li>
+                    <li><a href="tel:(949)325-68594"><i class="icon ion-ios-telephone-outline"></i>(949)325-68594</a></li>
+                </ul>
+
+                <div class="lead">
+                    <span id="stars" class="starrr"></span>
+                    <span class="review-counter">6</span> reviews
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="tabs">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#tab-1" data-toggle="tab">About</a></li>
+                        <li><a href="#tab-2" data-toggle="tab">Settings</a></li>
+                        <li><a href="#tab-3" data-toggle="tab">Option 1</a></li>
+                        <li><a href="#tab-4" data-toggle="tab">Option 2</a></li>
+                        <li><a href="#tab-5" data-toggle="tab">Option 3</a></li>
+                        <li><span class="followers"><a href="#"><i class="icon ion-ios-plus"></i></a>15 followers</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="tab-content">
+                    <div class="tab-pane fade active" id="tab-1">
+                        <h2>Profile Info</h2>
+                        <ul class="profile-info">
+                            <li>
+                                <h3>Jessica Parker</h3>
+                                <button type="button" class="btn" data-toggle="popover" data-placement="right"
+                                        title="<label>Name, Surname<input type='text' placeholder='Jessica Parker' /></label>"
+                                        data-content="<button type='button' class='btn btn-primary btn-xs'>Save</button>
+                                                      <button type='button' class='btn btn-default btn-xs'>Cancel</button>">
+                                    <i class="icon ion-edit"></i>
+                                </button>
+                        </li>
+                            <li>
+                                <a href="#"><i class="icon ion-earth"></i>www.seller.com</a>
+                                <button type="button" class="btn" data-toggle="popover" data-placement="right"
+                                        title="<label>Website <input type='text' placeholder='www.seller.com' /></label>"
+                                        data-content="<button type='button' class='btn btn-primary btn-xs'>Save</button>
+                                                      <button type='button' class='btn btn-default btn-xs'>Cancel</button>">
+                                    <i class="icon ion-edit"></i>
+                                </button>
+                            </li>
+                            <li>
+                                <a href="tel:(949) 325 - 68594"><i class="icon ion-ios-telephone-outline"></i>(949) 325 - 68594</a>
+                                <button type="button" class="btn" data-toggle="popover" data-placement="right"
+                                        title="<label>Phone Number <input type='text' placeholder='(949) 325 - 68594' /></label>"
+                                        data-content="<button type='button' class='btn btn-primary btn-xs'>Save</button>
+                                                      <button type='button' class='btn btn-default btn-xs'>Cancel</button>">
+                                    <i class="icon ion-edit"></i>
+                                </button>
+                            </li>
+                            <li>
+                                <address><i class="icon ion-ios-home-outline"></i>Newport Beach, CA</address>
+                                <button type="button" class="btn" data-toggle="popover" data-placement="right"
+                                        title="<label>City, State & Zip <input type='text' placeholder='Newport Beach, CA' /></label>"
+                                        data-content="<button type='button' class='btn btn-primary btn-xs'>Save</button>
+                                                      <button type='button' class='btn btn-default btn-xs'>Cancel</button>">
+                                    <i class="icon ion-edit"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="tab-2">
+                        <h2>Change Password</h2>
+
+                        <form>
+                            <div class="form-group">
+                                <label for="pwd"></label>
+                                <input type="password" class="form-control" placeholder="Existing Password" id="pwd">
+                            </div>
+                            <div class="form-group">
+                                <label for="new-pwd"></label>
+                                <input type="password" class="form-control" placeholder="New Password" id="new-pwd">
+                            </div>
+                            <div class="form-group">
+                                <label for="conf-pwd"></label>
+                                <input type="password" class="form-control" placeholder="Confirm Password" id="conf-pwd">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-md">Save</button>
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="tab-3">
+                        <h2>Option 1</h2>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales, purus eu bibendum blandit, erat erat eleifend metus,
+                        ut auctor dolor nunc at justo. Cras placerat sagittis orci, quis cursus dolor egestas eget. Ut metus lorem, tincidunt ac elit ut, sagittis euismod risus.
+                        Nulla ultricies suscipit ullamcorper. Suspendisse ac mollis odio. Sed non eleifend nunc. Proin id suscipit erat. Nullam tincidunt pellentesque est, et egestas mi.
+                        Nulla dolor ligula, pulvinar at tincidunt venenatis, interdum nec nisl. Donec iaculis vulputate magna at semper. Duis efficitur dapibus pharetra.
+                        Sed cursus nisi vel cursus semper. Suspendisse potenti.</p>
+
+                        <p>Donec quis feugiat nulla, eget varius sapien. Donec congue nisl ante, et gravida magna fermentum vitae. Vestibulum ante ipsum primis in faucibus orci luctus et
+                        ultrices posuere cubilia Curae; Vestibulum nisi sapien, tristique ac aliquet eu, dapibus vel urna. Donec vel nibh porttitor, rhoncus felis id, gravida nunc.
+                        Duis faucibus non nisl ut venenatis. Mauris imperdiet elit sed pharetra accumsan.</p>
+
+                        <p>Sed feugiat et lacus id placerat. Nullam fermentum, risus eget gravida viverra, diam ante dictum nulla, a gravida lorem arcu a magna. Vivamus euismod in neque sit amet
+                        sollicitudin. Ut vel aliquam ipsum. Nunc at enim ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                        Phasellus lobortis, turpis pulvinar cursus aliquet, justo mi porta massa, eu finibus magna lorem id arcu. Sed id venenatis ligula.
+                        Aliquam gravida libero vitae metus hendrerit mattis. Nulla sapien massa, vehicula vitae suscipit in, varius non erat.</p>
+                    </div>
+                    <div class="tab-pane fade" id="tab-4">
+                        <h2>Option 2</h2>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales, purus eu bibendum blandit, erat erat eleifend metus,
+                            ut auctor dolor nunc at justo. Cras placerat sagittis orci, quis cursus dolor egestas eget. Ut metus lorem, tincidunt ac elit ut, sagittis euismod risus.
+                            Nulla ultricies suscipit ullamcorper. Suspendisse ac mollis odio. Sed non eleifend nunc. Proin id suscipit erat. Nullam tincidunt pellentesque est, et egestas mi.
+                            Nulla dolor ligula, pulvinar at tincidunt venenatis, interdum nec nisl. Donec iaculis vulputate magna at semper. Duis efficitur dapibus pharetra.
+                            Sed cursus nisi vel cursus semper. Suspendisse potenti.</p>
+
+                            <p>Donec quis feugiat nulla, eget varius sapien. Donec congue nisl ante, et gravida magna fermentum vitae. Vestibulum ante ipsum primis in faucibus orci luctus et
+                            ultrices posuere cubilia Curae; Vestibulum nisi sapien, tristique ac aliquet eu, dapibus vel urna. Donec vel nibh porttitor, rhoncus felis id, gravida nunc.
+                            Duis faucibus non nisl ut venenatis. Mauris imperdiet elit sed pharetra accumsan.</p>
+
+                            <p>Sed feugiat et lacus id placerat. Nullam fermentum, risus eget gravida viverra, diam ante dictum nulla, a gravida lorem arcu a magna. Vivamus euismod in neque sit amet
+                            sollicitudin. Ut vel aliquam ipsum. Nunc at enim ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                            Phasellus lobortis, turpis pulvinar cursus aliquet, justo mi porta massa, eu finibus magna lorem id arcu. Sed id venenatis ligula.
+                            Aliquam gravida libero vitae metus hendrerit mattis. Nulla sapien massa, vehicula vitae suscipit in, varius non erat.</p>
+                    </div>
+                    <div class="tab-pane fade" id="tab-5">
+                        <h2>Option 3</h2>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales, purus eu bibendum blandit, erat erat eleifend metus,
+                            ut auctor dolor nunc at justo. Cras placerat sagittis orci, quis cursus dolor egestas eget. Ut metus lorem, tincidunt ac elit ut, sagittis euismod risus.
+                            Nulla ultricies suscipit ullamcorper. Suspendisse ac mollis odio. Sed non eleifend nunc. Proin id suscipit erat. Nullam tincidunt pellentesque est, et egestas mi.
+                            Nulla dolor ligula, pulvinar at tincidunt venenatis, interdum nec nisl. Donec iaculis vulputate magna at semper. Duis efficitur dapibus pharetra.
+                            Sed cursus nisi vel cursus semper. Suspendisse potenti.</p>
+
+                           <p>Donec quis feugiat nulla, eget varius sapien. Donec congue nisl ante, et gravida magna fermentum vitae. Vestibulum ante ipsum primis in faucibus orci luctus et
+                            ultrices posuere cubilia Curae; Vestibulum nisi sapien, tristique ac aliquet eu, dapibus vel urna. Donec vel nibh porttitor, rhoncus felis id, gravida nunc.
+                            Duis faucibus non nisl ut venenatis. Mauris imperdiet elit sed pharetra accumsan.</p>
+
+                            <p>Sed feugiat et lacus id placerat. Nullam fermentum, risus eget gravida viverra, diam ante dictum nulla, a gravida lorem arcu a magna. Vivamus euismod in neque sit amet
+                            sollicitudin. Ut vel aliquam ipsum. Nunc at enim ligula. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                            Phasellus lobortis, turpis pulvinar cursus aliquet, justo mi porta massa, eu finibus magna lorem id arcu. Sed id venenatis ligula.
+                            Aliquam gravida libero vitae metus hendrerit mattis. Nulla sapien massa, vehicula vitae suscipit in, varius non erat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/stars.js"></script>
+<script src="js/all-in-one.js"></script>
+</body>
+</html>
